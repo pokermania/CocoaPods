@@ -6,7 +6,7 @@
    s.homepage = 'https://github.com/nihalahmed/GameCenterManager'
    s.author   = { 'iRare Media' => 'contact@iraremedia.com' }
    s.source   = { :git => 'https://github.com/nihalahmed/GameCenterManager.git' , :tag => 'v5.3' }
-   s.ios.deployment_target = '7.0'
+   s.ios.deployment_target = '6.1'
    s.source_files = 'GC*Manager/NSDataAES256.{h,m}' , 'GC*Manager/GameCenterManager.{h,m}'
    s.ios.framework = 'SystemConfiguration', 'GameKit', 'Security'
    s.requires_arc = true
