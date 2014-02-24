@@ -8,8 +8,8 @@
    s.source   = { :http => 'https://github.com/AdColony/AdColony-iOS-SDK/archive/master.zip' }
    s.platform = :ios, '5.0'
    s.source_files = 'AdColony-iOS-SDK-master/AdColony.framework/Versions/A/Headers/AdColony.h'
-   s.preserve_paths = 'AdColony.framework/*'
+   s.preserve_paths = 'AdColony-iOS-SDK-master/AdColony.framework/*'
    s.framework = 'SystemConfiguration', 'UIKit','AdSupport','AVFoundation','CoreMedia','StoreKit','MessageUI','EventKit','EventKitUI','MediaPlayer','QuartzCore'
-   s.xcconfig  =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AdColony"' }
+   s.vendored_frameworks = 'AdColony-iOS-SDK-master/AdColony.framework'
    s.weak_framework = 'CoreTelephony'
  end
